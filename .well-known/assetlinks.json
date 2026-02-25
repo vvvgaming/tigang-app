@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.tigang.android",
+    "sha256_cert_fingerprints": [
+      "F5:2C:50:F4:47:F0:1D:03:0A:74:FA:9A:A1:E8:08:89:12:1F:33:26:9C:D4:B8:E9:59:F4:93:14:A8:09:27:C3"
+    ]
+  }
+}]
