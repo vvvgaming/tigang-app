@@ -1,0 +1,38 @@
+{
+  "name": "TIGANG 提肛训练助手",
+  "short_name": "TIGANG",
+  "description": "Web3健康训练应用 - 每日提肛打卡赚取代币奖励",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "categories": ["health", "fitness", "lifestyle"],
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "首页 - 训练打卡和连续记录"
+    },
+    {
+      "src": "/screenshots/training.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "训练界面 - 动画引导"
+    }
+  ]
+}
