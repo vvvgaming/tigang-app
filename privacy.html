@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - TIGANG 提肛训练助手</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --border: #1e1e2e;
+            --text: #e0e0e8;
+            --text-muted: #8888a0;
+            --accent: #6c5ce7;
+            --accent-glow: rgba(108, 92, 231, 0.15);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header .app-name {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        .effective-date {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #a29bfe;
+            margin: 2rem 0 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+
+        ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        ul li {
+            margin-bottom: 0.4rem;
+            color: var(--text);
+        }
+
+        a {
+            color: #a29bfe;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>隐私政策</h1>
+        <div class="app-name">TIGANG 提肛训练助手</div>
+    </div>
+
+    <div class="container">
+        <div class="effective-date">生效日期：2026年2月27日 &nbsp;|&nbsp; 最后更新：2026年2月27日</div>
+
+        <p>TIGANG 提肛训练助手（以下简称"本应用"）尊重并保护您的隐私。本隐私政策说明我们如何收集、使用和保护您的信息。</p>
+
+        <h2>1. 信息收集</h2>
+        <p>本应用采用本地优先的设计理念，您的数据主要存储在您的设备上。</p>
+        <p><strong>我们收集的信息：</strong></p>
+        <ul>
+            <li><strong>训练数据：</strong>训练模式选择、完成次数、训练时长等。这些数据仅存储在您设备的本地存储（localStorage）中。</li>
+            <li><strong>打卡记录：</strong>每日打卡状态和连续打卡天数，仅存储在本地。</li>
+            <li><strong>成就数据：</strong>成就解锁状态，仅存储在本地。</li>
+            <li><strong>钱包地址：</strong>如果您选择连接 Solana 钱包，我们会读取您的公开钱包地址以便未来的代币功能。我们不会访问您的私钥或资产。</li>
+        </ul>
+
+        <h2>2. 我们不收集的信息</h2>
+        <ul>
+            <li>我们不收集您的姓名、电子邮件、电话号码等个人身份信息。</li>
+            <li>我们不收集您的位置信息。</li>
+            <li>我们不收集健康或医疗数据（训练记录不属于医疗数据）。</li>
+            <li>我们不使用 Cookie 或第三方追踪工具。</li>
+        </ul>
+
+        <h2>3. 数据存储与安全</h2>
+        <p>所有训练数据和用户偏好均存储在您设备的本地存储中。我们不运营后端服务器来存储用户数据。如果您卸载应用或清除浏览器数据，本地数据将被删除。</p>
+
+        <h2>4. 数据共享</h2>
+        <p>我们不会将您的任何数据出售、交易或以其他方式转让给第三方。由于数据存储在您的设备本地，我们无法访问或共享这些数据。</p>
+
+        <h2>5. 第三方服务</h2>
+        <p>本应用可能会与以下第三方服务交互：</p>
+        <ul>
+            <li><strong>Solana 区块链：</strong>如果您使用钱包连接功能，交互将通过 Solana 公共 RPC 节点进行。区块链上的交易是公开的。</li>
+            <li><strong>Cloudflare Pages：</strong>本应用托管在 Cloudflare Pages 上，Cloudflare 可能会收集基本的访问日志（IP 地址、访问时间等）。请参阅 <a href="https://www.cloudflare.com/privacypolicy/" target="_blank">Cloudflare 隐私政策</a>。</li>
+        </ul>
+
+        <h2>6. 儿童隐私</h2>
+        <p>本应用不面向 13 岁以下的儿童。我们不会有意收集儿童的个人信息。</p>
+
+        <h2>7. 隐私政策更新</h2>
+        <p>我们可能会不时更新本隐私政策。更新后的政策将在本页面发布，并更新顶部的"最后更新"日期。</p>
+
+        <h2>8. 联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+        <p>电子邮件：<a href="mailto:vvvgaming@pm.me">vvvgaming@pm.me</a></p>
+    </div>
+
+    <div class="footer">
+        © 2026 TIGANG. All rights reserved.
+    </div>
+</body>
+</html>
